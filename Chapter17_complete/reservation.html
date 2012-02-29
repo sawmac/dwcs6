@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cafe Soylent Green</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="wrapper">
+<div class="header">
+	<p class="logo"><a href="index.html"><img src="images/cafe_logo.png" width="434" height="62" alt="Cafe Soylent Green"></a>
+	</p>
+	<ul class="nav">
+		<li><a href="menu.html">Menu</a></li>
+		<li><a href="events.html">Events</a></li>
+		<li><a href="about.html">About Us</a></li>
+		<li><a href="hours.html">Hours &amp; Directions</a></li>
+	</ul>
+	<p class="reservation"><a href="reservation.html">Make a reservation</a></p>
+</div>
+<div class="main">
+<h1>Make a Reservation</h1>
+<form name="form1" method="post" action="http://cafesoylentgreen.com/reserve.php">
+	<p>
+		<label for="name" class="label">Your name</label>
+		
+		<input type="text" name="name" id="name">
+	</p>
+	<p>
+		<label for="email" class="label">Your e-mail address</label>
+		
+		<input type="text" name="email" id="email">
+	</p>
+	<p>
+		<label for="diners" class="label">Number in party</label>
+		
+		<select name="diners" id="diners">
+			<option value="-1">-- number of diners --</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8+</option>
+		</select>
+	</p>
+	<p>
+		<label for="month" class="label">Month</label>
+		<select name="month" size="1">
+			<option value="01">January</option>
+			<option value="02">February</option>
+			<option value="03">March</option>
+			<option value="04">April</option>
+			<option value="05">May</option>
+			<option value="06">June</option>
+			<option value="07">July</option>
+			<option value="08">August</option>
+			<option value="09">September</option>
+			<option value="10">October</option>
+			<option value="11">November</option>
+			<option value="12">December</option>
+		</select>
+</p>
+	<p>
+		<label for="day" class="label">Day</label>
+		<select name="day">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+			<option>10</option>
+			<option>11</option>
+			<option>12</option>
+			<option>13</option>
+			<option>14</option>
+			<option>15</option>
+			<option>16</option>
+			<option>17</option>
+			<option>18</option>
+			<option>19</option>
+			<option>20</option>
+			<option>21</option>
+			<option>22</option>
+			<option>23</option>
+			<option>24</option>
+			<option>25</option>
+			<option>26</option>
+			<option>27</option>
+			<option>28</option>
+			<option>29</option>
+			<option>30</option>
+			<option>31</option>
+		</select>
+</p>	
+	<p>
+		<label for="time" class="label">Time of reservation</label>
+		
+		<input type="text" name="time" id="time">
+	</p>
+	<p><span class="label">Location Preference</span>
+		<input type="radio" name="location" id="corner" value="corner">
+		<input name="location" type="radio" id="anywhere" value="anywhere" checked>
+		<label for="anywhere">Anywhere is fine</label>
+		<input type="radio" name="location" id="bar" value="bar">
+		<label for="bar">At the bar</label>
+		<label for="corner">Corner table</label>
+	</p>
+	<p>
+		<label for="comments" class="label">Any comments or requests?</label>
+		<textarea name="comments" id="comments" cols="45" rows="5"></textarea></p>
+	<p>
+		<input type="submit" name="button" id="button" value="Make a reservation">
+	</p>
+</form>
+<p class="small-print">After making your reservation, we will contact you via e-mail with a confirmation. Please check in at least 5 minutes before your reservation time. We will not hold tables longer than 5 minutes past your scheduled reservation.</p>
+</div>
+<div class="aside">
+<h2>Upcoming Events</h2>
+<ul>
+	<li>March 3rd <strong>Iron Chef Night</strong><br>
+		Lorm ipsum dolor sat ipectum solorgno inferiod</li>
+	<li>March 7th <strong>Learn about high protein plankton</strong><br>
+	Lorm ipsum dolor sat ipectum solorgno inferiod</li>
+	<li>March 12th <strong>Movie Night</strong><br>
+		Lorm ipsum dolor sat ipectum solorgno inferiod</li>
+	</ul>
+<h2>This Week's Specials</h2>
+	<p class="figure"><img src="images/special1.jpg" width="270" height="115" alt="Yummy, yummy">
+	Lorm ipsum dolor sat ipectum solorgno inferiod</p>
+	<p class="figure"><img src="images/special2.jpg" width="270" height="115" alt="More yummy">
+	Lorm ipsum dolor sat ipectum solorgno inferiod</p>
+	<p class="figure"><img src="images/special3.jpg" width="270" height="115" alt="Really, really yummy">
+	Lorm ipsum dolor sat ipectum solorgno inferiod</p>
+</div>
+<div class="footer">
+<p>Copyright 2022, The Soylent Corporation</p>
+</div>
+</div>
+</body>
+</html>

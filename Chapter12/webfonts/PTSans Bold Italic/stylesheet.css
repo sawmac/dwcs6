@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'PTSans Bold Italic';
+	src: url('PTS76F-webfont.eot');
+	src: url('PTS76F-webfont.eot?#iefix') format('embedded-opentype'),
+		url('PTS76F-webfont.woff') format('woff'),
+		url('PTS76F-webfont.ttf') format('truetype'),
+		url('PTS76F-webfont.svg') format('svg');
+}

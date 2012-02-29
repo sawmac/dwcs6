@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'PTSansReg';
+	src: url('PTS55F-webfont.eot');
+	src: url('PTS55F-webfont.eot?#iefix') format('embedded-opentype'),
+		url('PTS55F-webfont.woff') format('woff'),
+		url('PTS55F-webfont.ttf') format('truetype'),
+		url('PTS55F-webfont.svg') format('svg');
+}
