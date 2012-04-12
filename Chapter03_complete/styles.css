@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@import url("webfonts/PTSansBold/stylesheet.css");
+@import url("webfonts/PTSansRegular/stylesheet.css");
+@import url("webfonts/PTSansItalic/stylesheet.css");
+h1 {
+	color: #145207;
+	font: normal 36px PTSansBold;
+	border-bottom: 2px solid #145207;
+	border-top: 2px solid #145207;
+	padding-top: 3px;
+}
+h2 {
+	font: normal 24px PTSansBold;
+	color: #033E00;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+p {
+	font: 14px/150% PTSansRegular;
+	margin-top: 5px;
+	margin-left: 75px;
+}
+strong {
+	font-family: PTSansBold;
+	font-weight: normal;
+}
+em {
+	font-family: PTSansItalic;
+}
+.copyright {
+	font: normal 12px PTSansBold;
+	color: #FFFFFF;
+	background-color: #145207;
+	padding: 5px;
+	margin-top: 25px;
+	margin-left: 0px;
+}
+ul {
+	font: 14px PTSansRegular;
+	margin-left: 50px;
+	list-style: square;
+}
