@@ -1,0 +1,54 @@
+@charset "UTF-8";
+@import url("webfonts/PTSansBold/stylesheet.css");
+@import url("webfonts/PTSansRegular/stylesheet.css");
+.container {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.banner {
+	background-color: #0A2F02;
+	padding: 12px 10px 1px;
+	margin-top: 0px;
+	background-image: url(images/bg_banner.jpg);
+}
+.banner p {
+	color: rgb(255,255,255);
+	font: normal 38px/normal PTSansBold;
+	margin: 10px 0px 15px;
+}
+h1 {
+	color: #468531;
+	margin-bottom: 10px;
+	font: normal 30px PTSansBold;
+}
+h2 {
+	color: #468531;
+	margin-bottom: 0px;
+	border-bottom: 2px dotted #E9E0B9;
+	font: normal 24px PTSansRegular;
+}
+p {
+	font-family: PTSansRegular;
+	line-height: 150%;
+	margin-top: 0px;
+}
+.footer {
+	background-color: #F2E5C2;
+	padding: 5px 10px;
+	border-top: 1px dotted #46855C;
+	margin-top: 35px;
+}
+.footer p {
+	margin: 0px;
+	line-height: normal;
+	font-size: 14px;
+}
+a {
+	color: #417F2C;
+	font-family: PTSansBold;
+}
+a:hover {
+	color: #0A2F02;
+	text-decoration: none;
+}
