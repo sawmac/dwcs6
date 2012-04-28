@@ -60,3 +60,26 @@ a:hover {
 	color: #0A2F02;
 	text-decoration: none;
 }
+.imageRight {
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	border: 5px solid #F2E5C2;
+}
+html {
+	background-image: url(images/bg_page.png);
+}
+body {
+	background-image: url(images/bg_banner.png);
+	background-repeat: repeat-x;
+	margin: 0px;
+}
+li {
+	background-image: url(images/list_dingbat.png);
+	background-repeat: no-repeat;
+	list-style: none;
+	padding-left: 20px;
+	background-position: 1px 4px;
+	margin: 0;
+}
