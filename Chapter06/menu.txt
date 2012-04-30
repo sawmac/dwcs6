@@ -1,0 +1,16 @@
+Starters		
+Item	Description	Price
+Chips & Salsa	"Yummy, yummy cornflour chips, with housemade salsa."	$4.00
+Fresh Cut Fries	Green fries? Just say yes to these delicious soylent green fries.	$4.95
+Buffalo Things	"Crispy tofu strips tossed in a spicy “buffalo” sauce or BBQ sauce. served with carrots, celery, and vegan ranch dressing"	$7.00
+Soylent Green Salad	"Green, crispy, delicious."	$6.00
+Main		
+Item	Description	Price
+Grilled Chicken	"Chicken, grilled to perfection, with corn, rice and polenta."	$9.50
+Chicken-Fried Plankton	Southern cooking meets modern hydroponics in this indescribable delicacy.	$11.50
+Faux-steak	A non-meat eaters delight. Made from our own special recipe. Served with garlic mashed potatoes and grilled asparagus.	$15.50
+The Soylent Salmon	"Green salmon? Yes, indeed. A treat for the eyes as well as the tastebuds. Served with garlic mashed potatoes, carrots and our own Soylent sauce."	$17.50
+Dessert		
+Item	Description	Price
+Ice-cream	"Choose from vanilla, chocolate or seaweed. Biscotti on the side."	$4.50
+Chocolate Decadence	This three-layered chocolate cake is too good to pass up.	$7.00
