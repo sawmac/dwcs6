@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'PTSansBold';
+	src: url('PTSansBold.eot');
+	src: url('PTSansBold.eot?#iefix') format('embedded-opentype'),
+		url('PTSansBold.woff') format('woff'),
+		url('PTSansBold.ttf') format('truetype'),
+		url('PTSansBold.svg') format('svg');
+}

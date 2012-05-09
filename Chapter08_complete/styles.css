@@ -1,0 +1,167 @@
+@charset "UTF-8";
+@import url("webfonts/PTSansBold/stylesheet.css");
+@import url("webfonts/PTSansRegular/stylesheet.css");
+.container {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.banner {
+	padding: 12px 0 0 0;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+.banner p {
+	color: #468531;
+	font: normal 38px/normal PTSansBold;
+}
+h1 {
+	color: #468531;
+	margin-bottom: 10px;
+	font: normal 30px PTSansBold;
+}
+h2 {
+	color: #468531;
+	margin-bottom: 0px;
+	border-bottom: 2px dotted #E9E0B9;
+	font: normal 24px PTSansRegular;
+	margin-top: 20px;
+}
+p , li{
+	font-family: PTSansRegular;
+	margin-top: 0px;
+	line-height: 150%;
+	margin-bottom: 20px;
+}
+strong {
+	font-family: PTSansBold;
+	font-weight: normal;
+}
+.date {
+	font-family: PTSansBold;
+	color: #993300;
+}
+.footer {
+	background-color: #F2E5C2;
+	padding: 5px 10px;
+	border-top: 1px dotted #46855C;
+	margin-top: 35px;
+}
+.footer p {
+	margin: 0px;
+	line-height: normal;
+	font-size: 14px;
+}
+a {
+	color: #417F2C;
+	font-family: PTSansBold;
+}
+a:hover {
+	color: #0A2F02;
+	text-decoration: none;
+}
+
+html {
+	background-image: url(images/bg_page.png);
+}
+body {
+	background-image: url(images/bg_banner.png);
+	background-repeat: repeat-x;
+	margin: 0px;
+}
+li {
+	background-image: url(images/list_dingbat.png);
+	background-repeat: no-repeat;
+	list-style: none;
+	padding-left: 20px;
+	background-position: 1px 4px;
+	margin: 0;
+}
+
+.menu {
+	margin-top: 20px;
+	font: 14px PTSansRegular;
+}
+.menu .course{
+	text-transform: uppercase;
+	color: #FFF;
+	text-align: center;
+	font-size: 18px;
+	background-image: url(images/bg-th.png);
+	padding-top: 13px;
+	background-position: center top;
+	background-color: #0A2F02;
+}
+.menu th{
+	font: 16px PTSansBold;
+	padding: 5px;
+	color: #468531;
+	background-color: #F2E5C2;
+	border-bottom: 1px solid #0A2F02;
+	text-align: left;
+}
+.menu td{
+	padding: 5px;
+	border: 1px solid #FFF;
+}
+.menu tr:nth-of-type(odd) {
+	background-color: rgba(255,255,255,0.5);
+}
+.menu td:first-child {
+	font-family: PTSansBold;
+}
+.nav {
+	margin-top: -80px;
+	padding: 0px;
+	margin-left: 60px;
+	text-align: right;
+	margin-bottom: 60px;
+	overflow: hidden;
+}
+.nav li {
+	background: none;
+	padding: 0;
+	margin: 0 10px 0 0;
+	display: inline-block;
+	float: right;
+}
+.imageRight {
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	border: 5px solid #F2E5C2;
+	opacity: .75;
+	-webkit-transition: border-color 1s ease-in-out 0s, opacity .5s ease-out 0s;
+	-moz-transition: border-color 1s ease-in-out 0s, opacity .5s ease-out 0s;
+	-ms-transition: border-color 1s ease-in-out 0s, opacity .5s ease-out 0s;
+	-o-transition: border-color 1s ease-in-out 0s, opacity .5s ease-out 0s;
+	transition: border-color 1s ease-in-out 0s, opacity .5s ease-out 0s;
+}
+
+.nav a {
+	font-family: PTSansBold;
+	text-decoration: none;
+	background-color: #0A2F02;
+	display: inline-block;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	border: 1px solid #1C6300;
+	-webkit-transition: all .25s ease-in-out 0s;
+	-moz-transition: all .25s ease-in-out 0s;
+	-ms-transition: all .25s ease-in-out 0s;
+	-o-transition: all .25s ease-in-out 0s;
+	transition: all .25s ease-in-out 0s;
+	border-radius: 3px;
+}
+.nav a:hover {
+	background-color: #E1EBEB;
+}
+.imageRight:hover {
+	border-color: #0A2F02;
+	-webkit-opacity: 1;
+	-moz-opacity: 1;
+	opacity: 1;
+}
