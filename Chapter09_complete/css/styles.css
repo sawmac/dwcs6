@@ -1,0 +1,39 @@
+@charset "UTF-8";
+.header {
+	background-image: url(../images/bg_banner.jpg);
+	height: 140px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.reservation {
+	position: absolute;
+	top: 8px;
+	right: 0px;
+}
+.main {
+	float: left;
+	width: 64%;
+	margin-bottom: 25px;
+}
+.aside {
+	background-color: #E7EBE0;
+	float: right;
+	width: 33%;
+	margin-bottom: 25px;
+	border: 1px solid #E5E5E5;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #999999;
+}
+.footer {
+	clear: both;
+}
+.container {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.nav {
+	position: absolute;
+	right: 0px;
+	bottom: 32px;
+}
