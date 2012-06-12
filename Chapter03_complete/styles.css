@@ -5,14 +5,18 @@
 h1 {
 	color: #145207;
 	font: normal 36px PTSansBold;
-	border-bottom: 2px solid #145207;
-	border-top: 2px solid #145207;
-	padding-top: 3px;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #145207;
+	border-bottom-color: #145207;
+	padding-top: 2px;
 }
 h2 {
-	font: normal 24px PTSansBold;
-	color: #033E00;
+	font: 24px PTSansBold;
 	text-transform: uppercase;
+	color: #033E00;
 	margin-bottom: 0px;
 }
 p {
@@ -26,6 +30,7 @@ strong {
 }
 em {
 	font-family: PTSansItalic;
+	font-style: normal;
 }
 .copyright {
 	font: normal 12px PTSansBold;
@@ -38,5 +43,5 @@ em {
 ul {
 	font: 14px PTSansRegular;
 	margin-left: 50px;
-	list-style: square;
+	list-style-type: square;
 }
