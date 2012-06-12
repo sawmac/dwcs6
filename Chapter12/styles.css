@@ -304,39 +304,6 @@ border:  1px solid rgb(229,229,229);
 .main form p {
 	margin-bottom:  20px;	
 }
-.label {
-	font-family: "PTSansBold";
-	color: rgba(32,91,10,1);
-	text-align: right;
-	clear: left;
-	float: left;
-	width: 30%;
-	padding-right: 10px;
-}
-input[type="text"], textarea {
-	width:  50%;
-	font: 18px PTSansReg;
-	vertical-align:bottom;
-	margin-top:  -3px;
-}
-
-textarea {
-	-webkit-transition: height .5s;
-	-moz-transition: height .5s;
-	-ms-transition: height .5s;
-	-o-transition: height .5s;
-	transition: height .5s;	
-	height:  50px;	
-}
-
-textarea:focus {
-	height:  400px;	
-}
-
-input[type="submit"] {
-	margin-left:  40%;
-	font-size: 24px;
-}
 .small-print {
 	font: 0.8em PTSansItalic
 !important;
